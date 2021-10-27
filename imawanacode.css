@@ -1,0 +1,245 @@
+body {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+}
+main {
+	scroll-behavior: smooth;
+}
+p {
+	font-size: 17px;
+}
+header {
+	background: rgba(96, 211, 219);
+	height: 70px;
+}
+h1 {
+	text-align: right;
+	font-size: 40px;
+	/* border:1px solid yellow;*/ 
+	display: inline-block;
+	position: absolute;
+	margin-left: 1550px;
+	margin-top: 10px;
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+nav li {
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	/* border: 1px solid green; */
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-weight: bold;
+	margin-left: 0;
+}
+nav li:hover {
+	background-color: rgba(208, 216, 217);
+}
+nav a:hover {
+	color: white;
+}
+
+nav a {
+	text-decoration: none;
+} 
+#top {
+	/* border: 1px solid red; */ 
+}
+.welcome {
+	text-align: center;
+	display: inline-block;
+	/* border: 1px solid blue; */
+	position: absolute;
+	margin: 50px 0 0 1150px;
+	width: 500px;
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+h2 {
+	font-size: 40px;
+}
+#top {
+	margin-top: 100px;
+}
+.blue {
+	color: rgba(79, 179, 201);
+	font-weight: bold;
+}
+.big {
+	border-radius: 50px;
+	margin: 0 50px 0 50px;
+}
+
+.smallone {
+	border-radius: 25px;
+	margin: 25px;
+}
+.smalltwo {
+	border-radius: 25px;
+	margin: 25px;
+}
+#activities {
+	margin-left: 25px;
+}
+#activities img {
+	border-radius: 25px;
+}
+.activities {
+	text-align: center;
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+.act {
+	position: relative;
+	height: 400px;
+	width: 400px;
+	margin: 20px;
+}
+.act {
+	position: relative;
+	display: inline-block;
+}
+.hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(176, 231, 255, 0.5);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+	transition: opacity .2s, visibility .2s;
+}
+
+.act:hover .hover {
+	visibility: visible;
+	opacity: 1;
+}
+
+.scubadescription {
+	transition: .2s;
+	transform: translateY(1em);
+	margin-top: 250px;
+	text-align: center;
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+.act:hover .scubadescription {
+	transform: translateY(0);
+}
+.head {
+	font-size: 30px;
+}
+#gallery {
+	font-family: 'Zen Kurenaido', sans-serif;
+	text-align: center;
+}
+#galdesc {
+	margin-bottom: 40px;
+}
+.slideshow {
+    width: 1000px;
+    height: 500px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.image-container {
+    width: 4000px;
+    background-color: pink;
+    height: 500px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+.slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#slide-1:target ~ .image-container {
+    left: 0px;
+}
+#slide-2:target ~ .image-container {
+    left: -1000px;
+}
+#slide-3:target ~ .image-container {
+    left: -2000px;
+}
+#slide-4:target ~ .image-container {
+    left: -3000px;
+}
+.buttons {
+    position: relative;
+    top: -530px;
+}
+.buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(10, 119, 166);
+}
+#reviews img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+#reviews h2 {
+	text-align: center;
+	margin-bottom: 150px;
+}
+#reviews {
+	/* border: 1px solid green; */
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+#reviews img {
+	float: left;
+}
+#reviews p {
+	font-size: 20px;
+	position: relative;
+	left: 50px;
+}
+#reviews h3 {
+	font-size: 30px;
+	position: relative;
+	left: 50px;
+}
+.reviewbox {
+	/* border: 1px solid red; */
+	height: 200px;
+	width: 400px;
+}
+#info {
+	width: 350px;
+	position: relative;
+	float: right;
+	bottom: 600px;
+	text-align: left;
+	font-size: 20px;
+}
+.label {
+	font-size: 20px;
+	font-weight: bold;
+}
+#request {
+	font-size: 30px;
+	font-weight: bold;
+}
