@@ -3,9 +3,6 @@ body {
 	padding: 0; 
 	border: 0;
 }
-main {
-	scroll-behavior: smooth;
-}
 p {
 	font-size: 17px;
 }
@@ -29,7 +26,7 @@ nav li {
 	display: inline-block;
 	width: 20%;
 	height: 100%;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Zen Kurenaido', sans-serif;
@@ -48,6 +45,7 @@ nav a {
 } 
 #top {
 	/* border: 1px solid red; */ 
+	margin-top: 100px;
 }
 .welcome {
 	text-align: center;
@@ -60,9 +58,6 @@ nav a {
 }
 h2 {
 	font-size: 40px;
-}
-#top {
-	margin-top: 100px;
 }
 .blue {
 	color: rgba(79, 179, 201);
@@ -96,8 +91,7 @@ h2 {
 	height: 400px;
 	width: 400px;
 	margin: 20px;
-}
-.act {
+	text-align: center;
 	position: relative;
 	display: inline-block;
 }
@@ -117,7 +111,6 @@ h2 {
 	border-radius: 25px;
 	transition: opacity .2s, visibility .2s;
 }
-
 .act:hover .hover {
 	visibility: visible;
 	opacity: 1;
@@ -187,7 +180,7 @@ h2 {
 }
 .buttons {
     position: relative;
-    top: -530px;
+    top: 0px;
 }
 .buttons a {
     display: inline-block;
