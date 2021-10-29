@@ -29,7 +29,7 @@ nav li {
 	display: inline-block;
 	width: 20%;
 	height: 100%;
-	/* border: 1px solid green; */
+	border: 1px solid green;
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Zen Kurenaido', sans-serif;
@@ -242,4 +242,10 @@ h2 {
 #request {
 	font-size: 30px;
 	font-weight: bold;
+}
+footer {
+	position: relative;
+	float: right;
+	left: 250px;
+	font-family: 'Zen Kurenaido', sans-serif;
 }
